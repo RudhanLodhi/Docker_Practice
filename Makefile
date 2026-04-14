@@ -1,6 +1,6 @@
 .PHONY: Startup install all clean
 
-Startup:
+env:
 	python -m venv .venv
 
 install:
